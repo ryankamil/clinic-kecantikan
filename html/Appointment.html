@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clinic Kecantikan</title>
+	<link rel="stylesheet" type="text/css" href="css/Apointment.css">
+</head>
+<body>
+	<!-- Navbar Kiri -->
+	<div class="Navbar">
+		<h1>Eilidh</h1>
+	<!-- Navbar Kanan -->
+		<div class="Navbar-Right">
+
+			<a href="About.html">About us</a>
+			<a href="Contact.html">Contact</a>
+			<a href="Services.html">Services</a>
+			<a href="../Homepage.html">Home</a>
+		</div>
+	</div>
+	<!-- content -->
+	<div class="Content">
+		<h2>Making An Appointment</h2>
+	<form action="php/Appointment.php" method="Post">
+		<table>
+			<tr>
+				<td>Full Name</td>
+				<td>:</td>
+				<td><input type="text" size="40" name="name"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>:</td>
+				<td><input type="radio" name="Gender" value="Laki-laki">Laki-laki  <input type="radio" name="Gender" value="Perempuan">Perempuan</td>			
+			</tr>
+			<tr>
+				<td>Date</td>
+				<td>:</td>
+				<td><input type="Date" name="date"></td>
+			</tr>
+			<tr>
+				<td>E-mail</td>
+				<td>:</td>
+				<td><input type="text" size="40" name="email"></td>		
+			</tr>
+			<tr>
+				<td>Appointment</td>
+				<td>:</td>
+				<td><select name="Appointment">
+						<option value=""> -- Select -- </option>
+						<Option value="Doctor">Doctor</Option>
+						<Option value="Beauty Therapist">Beauty Therapist</Option>
+					</select></td>
+
+			</tr>
+			<tr>
+				<td>Message</td>
+				<td>:</td>
+				<td><textarea rows="5" cols="75" name="Message" placeholder="Enter text here..."></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>
+					<h5><input type="submit" name="Kirim"></h5>
+				</td>
+			</tr>
+		</table>
+	</form>
+		
+	</div>
+</body>
+</html>
