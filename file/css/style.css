@@ -1,28 +1,40 @@
 body {
-  background-image: url(file/img/bg1.jpg);
+  background-image: url(../img/bg1.jpg);
   background-size: cover;
   background-position: center;
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 .Navbar {
-  background-color: #333;
-  float: top;
-}
-.Navbar h1 {
-  float: left;
-  text-align: center;
-  color: #5e3c30;
-  display: inline-block;
+  margin-top: 10px;
   padding-left: 20px;
 }
-.Navbar-Right a {
+.Navbar .icon {
+  float: left;
+  color: #5e3c30;
+}
+/* .Navbar-Right a {
   float: right;
   color: #5e3c30;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+} */
+
+.Navbar-Right ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 23px;
+  padding-top: 30px;
 }
+
+.Navbar-Right a {
+  font-size: 17px;
+  color: #5e3c30;
+  text-decoration: none;
+}
+
 .Navbar-Right a:hover {
   color: white;
   text-shadow: 2px 2px black;
@@ -32,19 +44,26 @@ body {
   align-items: center;
   text-align: center;
 }
-.Content h2 {
+.Content .judul1 {
   font-size: 80px;
   color: #5e3c30;
 }
+
+.Content .slogan {
+  font-size: 20px;
+  color: #5e3c30;
+  margin-top: -60px;
+}
+
 .Content a {
   text-decoration: none;
   display: inline-block;
   color: white;
   border: 2px solid #5e3c30;
   padding: 5px;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #5e3c30;
 }
-.Content p {
-  margin-top: -75px;
-  color: #5e3c30;
+
+.Content a:hover {
+  color: pink;
 }
