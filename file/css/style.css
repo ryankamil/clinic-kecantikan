@@ -13,17 +13,9 @@ body {
   float: left;
   color: #5e3c30;
 }
-/* .Navbar-Right a {
-  float: right;
-  color: #5e3c30;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-} */
 
 .Navbar-Right ul li {
-  display: inline-block;
+  display: flex;
   float: right;
   margin-right: 23px;
   padding-top: 30px;
