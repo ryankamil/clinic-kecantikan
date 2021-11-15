@@ -7,7 +7,7 @@ $action = $_GET['action'];
 //proses simpan data contanct
 if ($action == "add") {
     $koneksi->tambah_data($_POST['name'], $_POST['phone'], $_POST['email'], $_POST['message']);
-    header('location:../../file/php/Contact.php');
+    header('location:../../file/html/Contact.html');
 
     //proses simpan data appointment
 } else if ($action == "add2") {
