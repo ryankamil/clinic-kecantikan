@@ -11,7 +11,7 @@
       <!-- Navbar Kanan -->
       <div class="Navbar-Right">
         <a href="../html/About.html">About us</a>
-        <a href="../html/Contact.html">Contact</a>
+        <a href="../php/Contact.php">Contact</a>
         <a href="../html/Services.html">Services</a>
         <a href="../../index.html">Home</a>
       </div>
@@ -19,7 +19,7 @@
     <!-- content -->
     <div class="Content">
       <h2>Making An Appointment</h2>
-      <form action="file/php/Appointment.php" method="Post">
+      <form method="post" action="../php/proses_simpan.php?action=add2">
         <table>
           <tr>
             <td>Full Name</td>
@@ -34,7 +34,7 @@
           <tr>
             <td>Date</td>
             <td>:</td>
-            <td><input type="Date" name="date" /></td>
+            <td><input type="date" name="date" /></td>
           </tr>
           <tr>
             <td>E-mail</td>
@@ -61,7 +61,7 @@
             <td></td>
             <td></td>
             <td>
-              <h5><input type="submit" name="Kirim" /></h5>
+              <button name="Kirim" onclick="alert('Data Berhasil dikirim.!')">Submit</button>
             </td>
           </tr>
         </table>

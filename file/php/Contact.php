@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../css/Contact.css">
 	<title>Document</title>
 </head>
+
 <body>
 	<!-- Navbar Kiri -->
 	<div class="Navbar">
 		<h1>Eilidh</h1>
-	<!-- Navbar Kanan -->
+		<!-- Navbar Kanan -->
 		<div class="Navbar-Right">
 
 			<a href="../html/About.html">About us</a>
-			<a href="../html/Contact.html">Contact</a>
+			<a href="../php/Contact.php">Contact</a>
 			<a href="../html/Services.html">Services</a>
 			<a href="../../index.html">Home</a>
 		</div>
@@ -25,47 +27,47 @@
 		<p>Dapatkan layanan kecantikan terbaik di Indonesia</p>
 		<!-- img -->
 		<div class="img"></div>
-		
+
 		<div class="isi">
-		<h4>Have a Complaint?</h4>
-	<form method="post" action="../php/proses_simpan.php>action=add" >
-		<table>
-			<tr>
-				<td>Full Name</td>
-				<td>:</td>
-				<td><input type="text" size="40" name="name" placeholder="name"></td>
-			</tr>
-			<tr>
-				<td>Phone Number</td>
-				<td>:</td>
-				<td><input type="text" size="40" name="phone" placeholder="+62xxxxxxx"></td>		
-			</tr>
-			<tr>
-				<td>E-mail</td>
-				<td>:</td>
-				<td><input type="text" size="40" name="email" placeholder="....@gmail.com"></td>		
-			</tr>
-			<tr>
-				<td>Message</td>
-				<td>:</td>
-				<td><textarea rows="5" cols="75" name="message" placeholder="Enter text here..."></textarea></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td>
-					<h5><input type="submit" name="Kirim"></h5>
-				</td>
-			</tr>
-		</table>
-	</form>
-<div class="cf"></div>
-	</div>
-	<!-- icon -->
+			<h4>Have a Complaint?</h4>
+			<form method="post" action="../php/proses_simpan.php?action=add">
+				<table>
+					<tr>
+						<td>Full Name</td>
+						<td>:</td>
+						<td><input type="text" size="40" name="name" placeholder="name"></td>
+					</tr>
+					<tr>
+						<td>Phone Number</td>
+						<td>:</td>
+						<td><input type="text" size="40" name="phone" placeholder="+62xxxxxxx"></td>
+					</tr>
+					<tr>
+						<td>E-mail</td>
+						<td>:</td>
+						<td><input type="text" size="40" name="email" placeholder="....@gmail.com"></td>
+					</tr>
+					<tr>
+						<td>Message</td>
+						<td>:</td>
+						<td><textarea rows="5" cols="75" name="message" placeholder="Enter text here..."></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+							<button name="kirim" onclick="alert('Data berhasil kirim.!')">Submit</button>
+						</td>
+					</tr>
+				</table>
+			</form>
+			<div class="cf"></div>
+		</div>
+		<!-- icon -->
 		<div class="icon">
 			<img src="../img/ic.png" alt="" width="180" height="200"></img>
-		</div>	
-	<!-- sosmed -->
+		</div>
+		<!-- sosmed -->
 		<div class="row">
 			<div class="sosmed">
 				<a href=" https://api.whatsapp.com/send?phone=62895391783655"><img src="../img/wa.png" alt="Whatsapp" width="100" height="100"></a>
@@ -77,7 +79,8 @@
 				<a href="https://www.instagram.com/cae_ryn/"><img src="../img/ig.png" alt="Instagram" width="100" height="100"></a>
 			</div>
 		</div>
-		
+
 	</div>
 </body>
+
 </html>
