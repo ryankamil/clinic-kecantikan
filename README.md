@@ -1,5 +1,5 @@
 # clinic-kecantikan
-ini adalah project sederhana dari sebuah website kecantikan yang kelompok kami buat
+ini adalah project sederhana sebuah website kecantikan yang kelompok kami buat
 
 untuk mengunjunginya bisa klik https://ryankamil.github.io/clinic-kecantikan/
 
