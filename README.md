@@ -1,3 +1,7 @@
+# Screenshot tampilan Homepage
+![sss](https://user-images.githubusercontent.com/74499556/142659568-4d71fbaf-8440-4553-b4f8-12dabea36947.png)
+
+
 # clinic-kecantikan
 ini adalah project sederhana sebuah website kecantikan yang kelompok kami buat
 
