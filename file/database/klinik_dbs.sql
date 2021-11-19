@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 15, 2021 at 01:29 PM
+-- Generation Time: Nov 19, 2021 at 05:31 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -42,11 +42,8 @@ CREATE TABLE `appointment_tb` (
 --
 
 INSERT INTO `appointment_tb` (`id`, `name`, `gender`, `date`, `email`, `appointment`, `message`) VALUES
-(35, 'rudi widodo', '', '2021-11-15', 'rudi widodo', '', ''),
-(36, 'silfa nurlaila', '', '2021-11-15', 'silfa@gmail.com', '', ''),
-(37, 'lulu nisania', '', '2021-11-15', 'luluanisa@gmail.com', '', ''),
-(38, 'elisa ', '', '2021-11-03', 'elisa@gmail.com', '', ''),
-(39, 'rudy marga', '', '2021-11-03', 'rudy@gmail.com', '', '');
+(49, 'Eren Jaegger', 'Laki-laki', '2021-11-19', 'erentitan@gmail.com', 'Doctor', 'Konsultasi masalah jerawat diwajah'),
+(50, 'Alice Wonderland', 'Perempuan', '2021-11-19', 'alicewonder@gmail.com', 'Beauty Therapist', 'Terapi dan perawatan wajah');
 
 -- --------------------------------------------------------
 
@@ -71,7 +68,8 @@ INSERT INTO `contact` (`id`, `name`, `phone`, `email`, `message`) VALUES
 (10, 'Ucup Surucup', '0814648486', 'ucupganteng@gmail.com', 'jadi tambah ganteng perawataan'),
 (16, 'cuplis', '084848648646', 'cuplis21@gmail.com', 'wifi lemot, tidak bisa mabar'),
 (29, 'sarah niati', '08126564799', 'sarahniati@gmail.com', 'pelayanan sudah bagus, cuman a'),
-(30, 'ramdani', '08468486468', 'ramdain@gmail.com', 'parkiran kurang luas, naro mot');
+(30, 'ramdani', '08468486468', 'ramdain@gmail.com', 'parkiran kurang luas, naro mot'),
+(31, 'ryan', '088486464', 'ryan@gmail.com', 'pelayanan baik, ada wifinya ju');
 
 --
 -- Indexes for dumped tables
@@ -97,13 +95,13 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `appointment_tb`
 --
 ALTER TABLE `appointment_tb`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
