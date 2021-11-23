@@ -1,7 +1,7 @@
 body {
-  background-image: url(../img/bg2.jpg);
+  background-image: url(../img/bg1.jpg);
   background-size: cover;
-  /*background-position: center;*/
+  background-position: center;
   margin: 0px;
   background-attachment: fixed;
 }

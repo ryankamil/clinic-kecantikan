@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/Order.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar Kiri -->
+    <div class="Navbar">
+      <h1>Eilidh</h1>
+      <!-- Navbar Kanan -->
+      <div class="Navbar-Right">
+        <a href="../html/About.html">About us</a>
+        <a href="../html/Contact.html">Contact</a>
+        <a href="../html/Product.html">Product</a>
+        <a href="../html/Services.html">Services</a>
+        <a href="../../index.html">Home</a>
+      </div>
+    </div>
+    <!-- Order -->
+    <div class="Content">
+      <h2>COD Only!!</h2>
+      <form method="post" action="../php/proses_simpan.php?action=add3">
+        <table>
+          <tr>
+            <td>Full Name</td>
+            <td>:</td>
+            <td><input type="text" size="40" name="name" required /></td>
+          </tr>
+
+          <tr>
+            <td>E-mail</td>
+            <td>:</td>
+            <td><input type="text" size="40" name="email" required /></td>
+          </tr>
+
+          <tr>
+            <td>Product</td>
+            <td>:</td>
+            <td>
+              <select name="product" required>
+                <option value="Glycolic">Glycolic Acid 7% Toning Solution</option>
+                <option value="Azelaic">The Ordinary Azelaic Acid Suspension 10%</option>
+                <option value="Squalane">The Ordinary Squalane Cleanser</option>
+                <option value="Peeling">The Ordinary AHA 30% + BHA 2% Peeling Solution</option>
+                <option value="Caffeine">The Ordinary Caffeine Solution 5% + EGCG</option>
+                <option value="Ascorbyl">The Ordinary Magnesium Ascorbyl Phosphate 10%</option>
+                <option value="Moisturizing">The Ordinary Natural Moisturizing Factors + HA</option>
+                <option value="Niacinamide">The Ordinary Niacinamide 10% + Zinc 1%</option>
+                <option value="Salicylic">The Ordinary Salicylic Acid 2% Solution</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Quantity</td>
+            <td>:</td>
+            <td>
+              <select name="quantity" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>:</td>
+            <td><textarea name="address" cols="40" rows="3" placeholder="Enter text here..."></textarea></td>
+          </tr>
+          <tr>
+            <td>Delivery</td>
+            <td>:</td>
+            <td><input type="radio" name="delivery" value="JNT" />JNT <input type="radio" name="delivery" value="JNE" />JNE</td>
+          </tr>
+          <tr>
+            <td>Message</td>
+            <td>:</td>
+            <td><textarea rows="5" cols="75" name="message" placeholder="Enter text here..."></textarea></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <button name="Kirim" onclick="alert('Apakah data yang telah diisi sudah benar?');">Submit</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

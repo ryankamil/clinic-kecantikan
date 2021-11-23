@@ -13,4 +13,7 @@ if ($action == "add") {
 } else if ($action == "add2") {
     $koneksi->tambah_data2($_POST['name'], $_POST['gender'], $_POST['date'], $_POST['email'], $_POST['appointment'], $_POST['message']);
     header('location:../../file/html/Appointment.html');
+} else if ($action == "add3") {
+    $koneksi->tambah_data3($_POST['name'], $_POST['email'], $_POST['product'], $_POST['quantity'], $_POST['address'], $_POST['delivery'], $_POST['message']);
+    header('location:../../file/html/Order.html');
 }

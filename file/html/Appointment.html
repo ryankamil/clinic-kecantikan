@@ -12,6 +12,7 @@
       <div class="Navbar-Right">
         <a href="../html/About.html">About us</a>
         <a href="../html/Contact.html">Contact</a>
+        <a href="../html/Product.html">Product</a>
         <a href="../html/Services.html">Services</a>
         <a href="../../index.html">Home</a>
       </div>
@@ -20,7 +21,7 @@
     <div class="Content">
       <h2>Making An Appointment</h2>
       <form method="post" action="../php/proses_simpan.php?action=add2">
-        <table>
+        <table>          
           <tr>
             <td>Full Name</td>
             <td>:</td>
@@ -39,7 +40,7 @@
           <tr>
             <td>E-mail</td>
             <td>:</td>
-            <td><input type="text" size="40" name="email" /></td>
+            <td><input type="text" size="40" name="email" required/></td>
           </tr>
           <tr>
             <td>Appointment</td>
@@ -64,6 +65,7 @@
               <button name="Kirim" onclick="alert('Data Berhasil dikirim.!')">Submit</button>
             </td>
           </tr>
+          
         </table>
       </form>
     </div>

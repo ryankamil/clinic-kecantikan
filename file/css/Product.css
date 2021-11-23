@@ -1,0 +1,72 @@
+body {
+  background-image: url(../img/product.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  background-attachment: fixed;
+}
+.Navbar {
+  background-color: #333;
+  float: top;
+}
+.Navbar h1 {
+  float: left;
+  text-align: center;
+  color: #5e3c30;
+  display: flex;
+  padding-left: 20px;
+}
+.Navbar-Right a {
+  float: right;
+  color: #5e3c30;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.Navbar-Right a:hover {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.product {
+  width: 980px;
+  margin: 70px;
+  margin-left: 230px;
+  background-color: #5e3c30;
+  padding: 15px;
+  text-align: center;
+  height: 1500px;
+  position: absolute;
+  border-bottom: 50px solid #d0bbc0;
+}
+.isi h1 {
+  border: 5px dashed #fff;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+.product1 {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  width: 25%;
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.order {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  text-shadow: 2px 2px black;
+}
+.order:hover {
+  color: pink;
+  font-size: 30px;
+}
+.footer {
+  margin: 50px;
+}

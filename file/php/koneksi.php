@@ -29,6 +29,11 @@ class database
     {
         mysqli_query($this->koneksi, "insert into appointment_tb values('','$name', '$gender', '$date', '$email', '$appointment', '$message')");
     }
+    //tambah data order
+    function tambah_data3($name, $email, $product, $quantity, $address, $delivery, $message)
+    {
+        mysqli_query($this->koneksi, "insert into order_tb values('','$name', '$email', '$product', '$quantity', '$address', '$delivery', '$message')");
+    }
 
     // tampilkan data contact
     function tampil_data()
@@ -50,5 +55,15 @@ class database
             $hasil2[] = $row;
         }
         return $hasil2;
+    }
+    //  tampilkan data Order
+    function tampil_data3()
+    {
+        $data3 = mysqli_query($this->koneksi, "select * from order_tb");
+        $hasil3 = array();
+        while ($row = mysqli_fetch_array($data3)) {
+            $hasil3[] = $row;
+        }
+        return $hasil3;
     }
 }

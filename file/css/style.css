@@ -1,17 +1,18 @@
 body {
-  background-image: url(../img/bg1.jpg);
-  background-size: cover;
-  background-position: center;
-  margin: 0;
+  /*background-image: url(../img/bg1.jpg);*/
+  /*background-size: cover;
+  background-position: center;*/
+  margin: 0px;
   padding: 0;
 }
 .Navbar {
-  margin-top: 10px;
+  margin-top: -30px;
   padding-left: 20px;
 }
 .Navbar .icon {
   float: left;
   color: #5e3c30;
+  text-shadow: 2px 2px #fff;
 }
 
 .Navbar-Right ul li {
@@ -19,6 +20,7 @@ body {
   float: right;
   margin-right: 23px;
   padding-top: 30px;
+  text-shadow: 2px 2px #fff;
 }
 
 .Navbar-Right a {
@@ -35,6 +37,7 @@ body {
   padding: 170px;
   align-items: center;
   text-align: center;
+  text-shadow: 2px 2px #fff;
 }
 .Content .judul1 {
   font-size: 80px;
@@ -58,4 +61,13 @@ body {
 
 .Content a:hover {
   color: pink;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -99;
+  width: 100%;
 }

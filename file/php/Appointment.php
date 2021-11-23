@@ -16,9 +16,6 @@ $data_pelanggan2 = $db->tampil_data2();
 </head>
 
 <body>
-	<?php header("Content-type: application/vnd-ms-excel");
-	header("Content-Disposition: attachment; filename=Appointment.xls");
-	?>
 	<table style="text-decoration:none;">
 		<h2>Data Appointment</h2>
 		<?php
