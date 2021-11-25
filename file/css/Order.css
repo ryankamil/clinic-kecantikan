@@ -2,7 +2,7 @@ body {
   background-image: url(../img/img2.jpg);
   background-size: cover;
   background-position: center;
-  margin: 0px;
+  margin: 0px 10px 0px 0px;
   background-attachment: fixed;
 }
 .Navbar {
@@ -23,6 +23,7 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: 0.2s;
 }
 .Content {
   padding: 170px;
@@ -39,6 +40,7 @@ h2 {
 .Navbar-Right a:hover {
   color: white;
   text-shadow: 2px 2px black;
+  transform: scale(1.2);
 }
 .test input {
   padding-left: 10px;

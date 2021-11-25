@@ -2,7 +2,7 @@ body {
   /*background-image: url(../img/bg1.jpg);*/
   /*background-size: cover;
   background-position: center;*/
-  margin: 0px;
+  margin: 0px 10px 0px 0px;
   padding: 0;
 }
 .Navbar {
@@ -27,11 +27,13 @@ body {
   font-size: 17px;
   color: #5e3c30;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .Navbar-Right a:hover {
   color: white;
   text-shadow: 2px 2px black;
+  transform: scale(1.2);
 }
 .Content {
   padding: 170px;
@@ -57,10 +59,12 @@ body {
   border: 2px solid #5e3c30;
   padding: 5px;
   text-shadow: 2px 2px #5e3c30;
+  transition: 0.8s;
 }
 
 .Content a:hover {
   color: pink;
+  transform: scale(1.25);
 }
 #myVideo {
   position: absolute;
