@@ -1,0 +1,33 @@
+/* color icon */
+.my-icon {
+  color: white;
+}
+
+/* mouse */
+.nav-link:hover {
+  background-color: rgb(189, 141, 109);
+}
+
+/* warna header */
+.warna-bg {
+  background-color: rgb(189, 141, 109);
+}
+
+/* sidebar */
+.warna-sd {
+  background-color: rgb(92, 81, 74);
+}
+
+.display-4 {
+  font-weight: bold;
+}
+
+/* dashboard card */
+.card-body-icon {
+  position: absolute;
+  z-index: 999;
+  top: 20px;
+  right: 4px;
+  opacity: 0.4;
+  font-size: 90px;
+}
