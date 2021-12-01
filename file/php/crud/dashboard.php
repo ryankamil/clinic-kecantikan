@@ -177,7 +177,7 @@ $data_karyawan = $db->tampil_data();
                             echo $jumlah3;
                             ?>
                         </div>
-                        <a href="../crud/karyawan.php">
+                        <a href="../crud/contact.php">
                             <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
                         </a>
                     </div>
@@ -196,7 +196,7 @@ $data_karyawan = $db->tampil_data();
                             echo $jumlah;
                             ?>
                         </div>
-                        <a href="../crud/karyawan.php">
+                        <a href="#">
                             <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
                         </a>
                     </div>
