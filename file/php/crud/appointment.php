@@ -52,27 +52,27 @@ $data_appointment = $db->tampil_data1();
 		<div class="col-md-2 pr-2 pt-5 warna-sd ">
 			<ul class="nav flex-column ml-2 mb-2">
 				<li class="nav-item ">
-					<a class="nav-link active text-white " href="dashboard.php"><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</a>
-					<hr class="bg-dark">
+					<a class="nav-link active text-black " href="dashboard.php"><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</a>
+					<hr class="bg-white">
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link text-white rounded-lg" href="karyawan.php" active><i class="bi bi-people-fill mr-2"></i>Daftar Karyawan</a>
-					<hr class="bg-dark">
+					<a class="nav-link text-black" href="karyawan.php" active><i class="bi bi-people-fill mr-2"></i>Daftar Karyawan</a>
+					<hr class="bg-white">
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link text-white rounded-lg" href="gaji.php"><i class="bi bi-cash-coin mr-2"></i>Daftar Gaji</a>
-					<hr class="bg-dark">
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white rounded-lg" href="appointment.php"><i class="bi bi-calendar-date-fill mr-2"></i>Appointment</a>
+					<a class="nav-link text-black" href="gaji.php"><i class="bi bi-cash-coin mr-2"></i>Daftar Gaji</a>
 					<hr class="bg-white">
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white" href="contact.php"><i class="bi  bi-chat-dots-fill mr-2"></i>Contact</a>
+					<a class="nav-link text-black" href="appointment.php"><i class="bi bi-calendar-date-fill mr-2"></i>Appointment</a>
 					<hr class="bg-white">
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white" href="#"><i class="bi bi-award-fill mr-2"></i> List 6</a>
+					<a class="nav-link text-black" href="contact.php"><i class="bi  bi-chat-dots-fill mr-2"></i>Contact</a>
+					<hr class="bg-white">
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-black" href="#"><i class="bi bi-award-fill mr-2"></i> List 6</a>
 					<hr class="bg-white">
 				</li>
 			</ul>

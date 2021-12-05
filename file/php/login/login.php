@@ -14,12 +14,14 @@ if (isset($_POST["login"])) {
         $row = mysqli_fetch_assoc($result);
         header('location:../crud/dashboard.php');
         exit;
-    } else {
+    } 
+    else {
         echo
 
-        " <script> alert('password yang anda masukan salah')</script>";
+        " <script> alert('Login Gagal')</script>";
     }
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,9 +43,9 @@ if (isset($_POST["login"])) {
                 <h2>LOGIN ADMIN</h2>
                 <input type="text" placeholder="Username" name="username" id="username">
                 <input type="password" name="password" id="password" placeholder="Password">
-                <div class="register">
+                <!-- <div class="register">
                     <a href="../login/register.php">Register</a>
-                </div>
+                </div> -->
                 <button type="submit" name="login">LOGIN</button>
             </div>
             <!-- img -->

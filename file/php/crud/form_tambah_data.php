@@ -22,7 +22,9 @@ $data_karyawan = $db->tampil_data();
 	<!-- icons bootstrap -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 	<style>
-
+		.form-check-input{
+			margin-right: 150px;
+		}
 	</style>
 	<title>Homepage</title>
 </head>
@@ -53,27 +55,27 @@ $data_karyawan = $db->tampil_data();
 		<div class="col-md-2 pr-2 pt-5 warna-sd ">
 			<ul class="nav flex-column ml-2 mb-2">
 				<li class="nav-item ">
-					<a class="nav-link active text-white " href="#"><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</a>
-					<hr class="bg-dark">
+					<a class="nav-link active text-black " href="dashboard.php"><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</a>
+					<hr class="bg-white">
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link text-white rounded-lg" href="karyawan.php" active><i class="bi bi-people-fill mr-2"></i>Daftar Karyawan</a>
-					<hr class="bg-dark">
+					<a class="nav-link text-black" href="karyawan.php" active><i class="bi bi-people-fill mr-2"></i>Daftar Karyawan</a>
+					<hr class="bg-white">
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link text-white rounded-lg" href="#"><i class="bi bi-person-fill mr-2"></i>Daftar Gaji</a>
-					<hr class="bg-dark">
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white rounded-lg" href="#"><i class="bi bi-calendar-date-fill mr-2"></i>Appointment</a>
+					<a class="nav-link text-black" href="gaji.php"><i class="bi bi-person-fill mr-2"></i>Daftar Gaji</a>
 					<hr class="bg-white">
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white" href="#"><i class="bi bi-calendar2-check-fill mr-2"></i>Contact</a>
+					<a class="nav-link text-black" href="appointment.php"><i class="bi bi-calendar-date-fill mr-2"></i>Appointment</a>
 					<hr class="bg-white">
 				</li>
 				<li class="nav-item">
-					<a class="nav-link text-white" href="#"><i class="bi bi-award-fill mr-2"></i> List 6</a>
+					<a class="nav-link text-black" href="contact.php"><i class="bi bi-calendar2-check-fill mr-2"></i>Contact</a>
+					<hr class="bg-white">
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-black" href="#"><i class="bi bi-award-fill mr-2"></i> List 6</a>
 					<hr class="bg-white">
 				</li>
 			</ul>
@@ -101,6 +103,7 @@ $data_karyawan = $db->tampil_data();
 							<label class="form-check-label" for="gridRadios1">
 								Pria
 							</label>
+
 						</div>
 						<div class="form-check">
 							<input class="form-check-input" type="radio" name="jenis_kelamin" id="gridRadios2" value="Wanita">

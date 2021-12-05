@@ -3,23 +3,44 @@
   color: white;
 }
 
+body {
+  background-color: #e8edf2;
+}
+
 /* mouse */
 .nav-link:hover {
-  background-color: rgb(189, 141, 109);
+  border: 2px solid rgb(92, 81, 74);
+  border-radius: 15px;
+  color: black;
+  background-color: #e8edf2;
+}
+
+.text-black {
+  border: 2px solid #1c1c1e;
+  color: white;
+  border-radius: 15px;
+  background-color: #1c1c1e;
 }
 
 /* warna header */
 .warna-bg {
-  background-color: rgb(189, 141, 109);
+  background-color: #1c1c1e; /*rgb(92, 81, 74);*/
 }
 
 /* sidebar */
 .warna-sd {
-  background-color: rgb(92, 81, 74);
+  background-color: #6c757e; /*rgb(189, 141, 109);*/
+  height: 773px;
 }
 
-.display-4 {
+/*.display-4 {
   font-weight: bold;
+}*/
+
+.add-karyawan {
+  border-radius: 15px;
+  background-color: #e8edf2;
+  color: black;
 }
 
 /* dashboard card */
@@ -30,4 +51,56 @@
   right: 4px;
   opacity: 0.4;
   font-size: 90px;
+}
+
+.info {
+  color: #1c1c1e;
+  border-radius: 15px;
+  border: 2px solid #1c1c1e;
+  border-bottom: 6px solid blue;
+  background-color: #fff;
+}
+.danger {
+  color: #1c1c1e;
+  border-radius: 15px;
+  border: 2px solid #1c1c1e;
+  border-bottom: 6px solid red;
+  background-color: #fff;
+}
+.success {
+  color: #1c1c1e;
+  border-radius: 15px;
+  border: 2px solid #1c1c1e;
+  border-bottom: 6px solid limegreen;
+  background-color: #fff;
+}
+.secondary {
+  color: #1c1c1e;
+  border-radius: 15px;
+  border: 2px solid #1c1c1e;
+  border-bottom: 6px solid #1c1c1e;
+  background-color: #fff;
+}
+.primary {
+  color: #1c1c1e;
+  border-radius: 15px;
+  border: 2px solid #1c1c1e;
+  border-bottom: 6px solid darkviolet;
+  background-color: #fff;
+}
+.warn {
+  color: #1c1c1e;
+  border-radius: 15px;
+  border: 2px solid #1c1c1e;
+  border-bottom: 6px solid darkorange;
+  background-color: #fff;
+}
+
+p .detail,
+i .detail {
+  color: #1c1c1e;
+}
+
+.app {
+  font-size: 15px;
 }

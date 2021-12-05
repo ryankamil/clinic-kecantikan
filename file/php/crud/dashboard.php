@@ -53,27 +53,27 @@ $data_karyawan = $db->tampil_data();
         <div class="col-md-2 pr-2 pt-5 warna-sd ">
             <ul class="nav flex-column ml-2 mb-2">
                 <li class="nav-item ">
-                    <a class="nav-link active text-white " href="dashboard.php"><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</a>
-                    <hr class="bg-dark">
+                    <a class="nav-link active text-black activ" href="dashboard.php"><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</a>
+                    <hr class="bg-white">
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-white rounded-lg" href="karyawan.php" active><i class="bi bi-people-fill mr-2"></i>Daftar Karyawan</a>
-                    <hr class="bg-dark">
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="karyawan.php" active><i class="bi bi-people-fill mr-2"></i>Daftar Karyawan</a>
+                    <hr class="bg-white">
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-white rounded-lg" href="gaji.php"><i class="bi bi-cash-coin mr-2"></i>Daftar Gaji</a>
-                    <hr class="bg-dark">
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white rounded-lg" href="appointment.php"><i class="bi bi-calendar-date-fill mr-2"></i>Appointment</a>
+                    <a class="nav-link text-black" href="gaji.php"><i class="bi bi-cash-coin mr-2"></i>Daftar Gaji</a>
                     <hr class="bg-white">
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="contact.php"><i class="bi  bi-chat-dots-fill mr-2"></i>Contact</a>
+                    <a class="nav-link text-black" href="appointment.php"><i class="bi bi-calendar-date-fill mr-2"></i>Appointment</a>
                     <hr class="bg-white">
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><i class="bi bi-award-fill mr-2"></i> List 6</a>
+                    <a class="nav-link text-black" href="contact.php"><i class="bi  bi-chat-dots-fill mr-2"></i>Contact</a>
+                    <hr class="bg-white">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="#"><i class="bi bi-award-fill mr-2"></i> List 6</a>
                     <hr class="bg-white">
                 </li>
             </ul>
@@ -81,16 +81,16 @@ $data_karyawan = $db->tampil_data();
         <!-- end sidebar -->
 
         <!-- md-10 isi content -->
-        <divlass class="col-md-10 p-5 pt-2">
+        <divlass class="col-md-10 p-5 pt-2 ">
 
             <!-- Dasboard content -->
             <h3><i class="bi bi-bar-chart-fill mr-2"></i>Dashboard</h3>
             <hr>
 
             <!-- cards -->
-            <div class="row text-white">
+            <div class="row text-white ">
                 <!-- Product -->
-                <div class="card bg-info ml-5" style="width: 18rem;">
+                <div class="card info ml-5" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="bi bi-bag-fill mr-2"></i>
@@ -98,14 +98,14 @@ $data_karyawan = $db->tampil_data();
                         <h5 class="card-title">Jumlah Product</h5>
                         <div class="display-4">15</div>
                         <a href="">
-                            <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
+                            <p class="card-text detail">Lihat Detail<i class="bi bi-arrow-right-short ml-2 detail"></i></p>
                         </a>
                     </div>
                 </div>
                 <!-- end -->
 
                 <!-- Dokter -->
-                <div class="card bg-danger ml-5" style="width: 18rem;">
+                <div class="card danger ml-5" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="bi bi-person-fill mr-2"></i>
@@ -118,14 +118,14 @@ $data_karyawan = $db->tampil_data();
                             ?>
                         </div>
                         <a href="">
-                            <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
+                            <p class="card-text detail">Lihat Detail<i class="bi bi-arrow-right-short ml-2 detail"></i></p>
                         </a>
                     </div>
                 </div>
                 <!-- end -->
 
                 <!-- Karyawan -->
-                <div class="card bg-success ml-5" style="width: 18rem;">
+                <div class="card success ml-5" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="bi bi-people-fill mr-2"></i>
@@ -138,14 +138,14 @@ $data_karyawan = $db->tampil_data();
                             ?>
                         </div>
                         <a href="../crud/karyawan.php">
-                            <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
+                            <p class="card-text detail">Lihat Detail<i class="bi bi-arrow-right-short ml-2 detail"></i></p>
                         </a>
                     </div>
                 </div>
                 <!-- end -->
 
                 <!-- Appointment -->
-                <div class="card bg-secondary ml-5 mt-4" style="width: 18rem;">
+                <div class="card secondary ml-5 mt-4" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="bi bi-calendar-check-fill mr-2"></i>
@@ -158,14 +158,14 @@ $data_karyawan = $db->tampil_data();
                                 ?>
                             </div>
                             <a href="../crud/appointment.php">
-                                <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
+                                <p class="card-text detail app">Lihat Detail<i class="bi bi-arrow-right-short ml-2 detail"></i></p>
                             </a>
                     </div>
                 </div>
                 <!-- end -->
 
                 <!-- Contact -->
-                <div class="card bg-primary ml-5 mt-4" style="width: 18rem;">
+                <div class="card primary ml-5 mt-4" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="bi bi-chat-dots-fill mr-2"></i>
@@ -178,14 +178,14 @@ $data_karyawan = $db->tampil_data();
                             ?>
                         </div>
                         <a href="../crud/contact.php">
-                            <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
+                            <p class="card-text detail">Lihat Detail<i class="bi bi-arrow-right-short ml-2 detail"></i></p>
                         </a>
                     </div>
                 </div>
                 <!-- end -->
 
                 <!-- List 6 -->
-                <div class="card bg-warning ml-5 mt-4" style="width: 18rem;">
+                <div class="card warn ml-5 mt-4" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-body-icon">
                             <i class="bi bi-people-fill mr-2"></i>
@@ -197,11 +197,13 @@ $data_karyawan = $db->tampil_data();
                             ?>
                         </div>
                         <a href="#">
-                            <p class="card-text text-white">Lihat Detail<i class="bi bi-arrow-right-short ml-2"></i></p>
+                            <p class="card-text detail">Lihat Detail<i class="bi bi-arrow-right-short ml-2 detail"></i></p>
                         </a>
                     </div>
                 </div>
                 <!-- end -->
+
+
 
 
             </div>
